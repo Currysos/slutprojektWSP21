@@ -19,7 +19,11 @@ Databasen utgår ifrån users, eftersom users kommer att spara den viktigaste in
 ## 3. Databas med ER-diagram (Bild på ER-diagram).
 #Er diagram
 Hur databasen kommer att sitta ihop:
-![ER-Diagram](ER%20Diagram%20NTI%20Annex.png)
+
+ ![ER-Diagram](ER%20Diagram%20NTI%20Annex.png)
+Exempel sekvense: 
+
+ ![Sign_up sequence](NTI-Annex%20Sequence%20Diagram%20sign_up.png)
 
 
 ## 4. Arkitektur (Beskriv filer och mappar - vad gör/innehåller de?).
