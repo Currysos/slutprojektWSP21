@@ -1,0 +1,13 @@
+h1 TODOS #{session[:id]}
+
+ol
+    - todos.each do |todo|
+        li
+            p = todo["content"]
+            a href="/todos/#{todo['id']}/edit" Ändra, 
+            a href="/todos/#{todo['id']}/delete" Ta bort
+
+h1 Lägg till ny todo
+form action="/todos/new" method="post"
+    input type="text" name="content" placeholder="skriv todo"
+    input type="submit" value="lägg till todo"
